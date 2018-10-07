@@ -1,0 +1,89 @@
+<html>
+	<head>
+    	<script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+  	</head>
+  	<body>
+  		<a-scene>
+
+  			<!-- body -->
+  			<a-box color="blue" position="0 1.9 -5" rotation="20 30 30" scale="2 3 2">
+  				<a-animation attribute="color" to="pink" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
+  			</a-box>
+
+  			<!-- face -->
+  			<a-box color="blue" position="-1 4.5 -5" rotation="20 30 30" scale="1.7 1.7 1.7">
+  				<a-animation attribute="color" to="pink" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
+  			</a-box>
+
+  			<!-- left ear -->
+  			<a-sphere color="red" position="-2 4.2 -5" rotation="20 30 30" scale="0.5 0.5 0.5">
+  			</a-sphere>
+
+  			<!-- left antena -->
+  			<a-box color="blue" position="-1.75 3.63 -3" rotation="40 30 30" scale="0.1 1 0.1">
+  				<a-animation attribute="color" to="pink" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
+  			</a-box>
+
+  			<!-- left antena signal -->
+  			<a-sphere color="red" position="-1.45 3.53 -2" rotation="20 30 30" scale="0.1 0.1 0.1">
+  				<a-animation attribute="color" to="gold" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
+  			</a-sphere>
+
+  			<!-- right ear -->
+  			<a-sphere color="red" position="0 5 -5" rotation="20 30 30" scale="0.5 0.5 0.5">
+  			</a-sphere>
+
+  			<!-- right antena -->
+  			<a-box color="blue" position="0.5 6.6 -6" rotation="40 30 30" scale="0.1 1.3 0.1">
+  				<a-animation attribute="color" to="pink" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
+  			</a-box>
+
+  			<!-- right antena signal -->
+  			<a-sphere color="red" position="0.22 4.7 -3" rotation="20 30 30" scale="0.1 0.1 0.1">
+  				<a-animation attribute="color" to="gold" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
+  			</a-sphere>
+
+  			<!-- left eye -->
+  			<a-sphere color="gold" position="-1 4 -4" rotation="20 30 30" scale="0.2 0.2 0.2">
+  				<a-animation attribute="color" to="white" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
+  				<a-animation attribute="position" to="-1 4 -3.8" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
+  			</a-sphere>
+
+  			<!-- right eye -->
+  			<a-sphere color="gold" position="-0.3 4.2 -4" rotation="20 30 30" scale="0.2 0.2 0.2">
+  				<a-animation attribute="color" to="white" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
+  				<a-animation attribute="position" to="-0.3 4.2 -3.8" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
+  			</a-sphere>
+
+  			<!-- nose -->
+  			<a-cone color="gold" position="-0.55 3.8 -4" rotation="20 30 30" scale="0.1 0.2 0.2">
+  				<a-animation attribute="color" to="white" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
+  				<a-animation attribute="position" to="-0.55 3.8 -3.8" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
+  			</a-cone>
+  			<!-- left hand -->
+  			<a-cylinder color="gold" position="-2.8 1.5 -7" rotation="10 30 30" scale="0.9 3 0.9">
+  				<a-animation attribute="rotation" to="30 30 30" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
+  			</a-cylinder>
+
+  			<!-- left palm -->
+  			<a-sphere color="purple" position="-2.3 -0.1 -8.25" rotation="20 30 30" scale="0.7 0.7 0.7">
+  				<a-animation attribute="position" to="-2.3 -0.1 -8.36" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
+  			</a-sphere>
+  			<!-- right hand -->
+  			<a-cylinder color="gold" position="1.8 3.2 -7" rotation="30 30 30" scale="0.9 3 0.9">
+  				<a-animation attribute="rotation" to="10 30 30" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
+  			</a-cylinder>
+
+  			<!-- right palm -->
+  			<a-sphere color="purple" position="2.9 1.8 -10" rotation="20 30 30" scale="0.8 0.8 0.8">
+  				<a-animation attribute="position" to="2.9 1.8 -9.7" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
+  			</a-sphere>
+
+  			<!-- leg -->
+  			<a-sphere color="purple" position="1 0 -7" rotation="20 30 30" scale="1 1 1">
+  			</a-sphere>
+  			<a-text value="Hi! I am Mozuu." height="8" width="50" position="4 5 -5" rotation="0 -90 0" color="green"></a-text>
+  			<a-sky color="aqua"></a-sky>
+  		</a-scene>
+  	</body>
+  </html>
